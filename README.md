@@ -2,7 +2,8 @@
 A collection of my public computervision projects. 
 
 ## Project 1: Object Detection Aircraft Turnaround
-Using the YOLOv3 methodology, an object based algorithm has been made from scratch. The model is trained to analyse an aircraft turnaround from (live) video footage. However the code could be applied for all kinds of purposes. This code could form the basis for an analytical tool to analyse the aircraft turnaround. For purposes such as realtime timing of various tasks around the aircraft, or for example quality control (e.g. are cones set correctly, PPE compliance etc.)
+Using the YOLOv3 methodology, an object based algorithm has been made from scratch for full customization. The model is trained to analyse an aircraft turnaround from (live) video footage. However the code could be applied for all kinds of purposes. This code could form the basis for an analytical tool to analyse the aircraft turnaround. For purposes such as realtime timing of various tasks around the aircraft, or for example quality control (e.g. are cones set correctly, PPE compliance etc.) By basing the code on the YOLO methodology, the model is not only accurate, but also easily able to be utilitized realtime (30+ FPS).
+
 ![image7](https://github.com/user-attachments/assets/f90897da-dfe9-4459-bb1c-06ed4691aca5)
 
 ## Project 2: Parkingspot Checker

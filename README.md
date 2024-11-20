@@ -1,2 +1,2 @@
 # ComputerVisionProjects
-A collection of computervision projects
+A collection of my public computervision projects. 

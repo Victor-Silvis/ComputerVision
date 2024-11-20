@@ -7,4 +7,5 @@ Using the YOLOv3 methodology, an object based algorithm has been made from scrat
 ![image7](https://github.com/user-attachments/assets/f90897da-dfe9-4459-bb1c-06ed4691aca5)
 
 ## Project 2: Parkingspot Checker
+A project that includes the use of a CNN image classifier model in a realtime scenario. The simple but effective model determines wheter a parking spot is available or not and counts the amount of available spots. Combined with ways of making it as effecient (e.g. not every parking spot changes every second in reallife) makes it a very effective code that can be used for many other purposes as well. 
 ![371494568-cc68c64c-b014-4c1f-a809-d1e20832a8db](https://github.com/user-attachments/assets/52e61a90-e982-428a-9b92-8d1b29295061)

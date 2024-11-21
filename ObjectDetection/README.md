@@ -1,5 +1,7 @@
 # Project Description
 
+![image7](https://github.com/user-attachments/assets/72fdce1b-5cd9-444b-96a5-94ad9b1b6e1d)
+
 Using the YOLOv3 methodology, a fully customizable, object-based algorithm has been developed from scratch. The model is trained to analyze aircraft turnarounds using live video footage but is can be trained so it can be applied to a wide range of purposes. This code serves as a foundation for an analytical tool designed to evaluate various aspects of the aircraft turnaround process. Potential applications include real-time monitoring and timing of tasks performed around the aircraft or quality control checks, such as verifying proper cone placement or ensuring PPE compliance. The model achieves both high accuracy and real-time performance, maintaining a processing speed of 30+ FPS.
 
 ## 📂 Repository Contents  
@@ -20,15 +22,18 @@ Using the YOLOv3 methodology, a fully customizable, object-based algorithm has b
    Structure your data as shown below (see *Training Data Structure*).  
    
 2. **Train the Model**  
-   Use the provided `Train.py` script to train the model on your custom dataset.  
+   Use the provided `Train.py` script to train the model on your custom dataset. This wll save a trained model when done or manually stopped. Note for a model like this (with many layers) many epochs are needed. The training will show the accuracy on the test images every x epochs. 
 
 3. **Apply the Model**  
-   Use `Demo.py` to analyze videos with the trained model.  
+   Load the saved model file and use it where you would like. Use `Demo.py` to see how to use the model on a video.
+
+4. **Analyse**
+   The model outputs all the information you need as a foundation to analyse the video. (not included in public repo)
 
 
 ## 📁 Training Data Structure  
 
-Organize your training data in the following structure:
+Organize your training data in the following structure. Names of folders can be set in the config.py file.
 
 ```plaintext
 traindata/
@@ -54,3 +59,5 @@ traindata/
         ├── image1.txt
         ├── image2.txt
         └── ...
+```
+

@@ -24,4 +24,26 @@ Using the YOLOv3 methodology, a fully customizable, object-based algorithm has b
 
 3. **Apply the Model**  
    Use `Demo.py` to analyze videos with the trained model.  
-                                                
+
+
+## 📁 Training Data Structure  
+
+Organize your training data in the following structure:
+
+traindata/
+│
+├── train/
+│   ├── images/
+│   │   ├── image1.jpg
+│   │   └── .....
+│   └── labels/
+│       ├── image1.txt
+│       └── ...
+│
+└── test/
+    ├── images/
+    │   ├── image1.jpg
+    │   └── ...
+    └── labels/
+        ├── image1.txt
+        └── ...

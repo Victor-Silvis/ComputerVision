@@ -30,20 +30,10 @@ Using the YOLOv3 methodology, a fully customizable, object-based algorithm has b
 
 Organize your training data in the following structure:
 
-traindata/  
-│  
-├── train/  
-│   ├── images/  
-│   │   ├── image1.jpg  
-│   │   └── .....  
-│   └── labels/  
-│       ├── image1.txt  
-│       └── ...  
-│  
-└── test/  
-    ├── images/  
-    │   ├── image1.jpg  
-    │   └── ...  
-    └── labels/  
-        ├── image1.txt  
-        └── ...  
+.
+├── ...
+├── test                    # Test files (alternatively `spec` or `tests`)
+│   ├── benchmarks          # Load and stress tests
+│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│   └── unit                # Unit tests
+└── ...

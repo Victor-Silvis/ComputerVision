@@ -22,7 +22,7 @@ Using the YOLOv3 methodology, a fully customizable, object-based algorithm has b
    Structure your data as shown below (see *Training Data Structure*).  
    
 2. **Train the Model**  
-   Use the provided `Train.py` script to train the model on your custom dataset. This wll save a trained model when done or manually stopped. Note for a model like this (with many layers) many epochs are needed. The training will show the accuracy on the test images every x epochs. 
+   Use the provided `Train.py` script to train the model on your custom dataset. This will save a trained model when done or manually stopped. Note for a model like this (with many layers) many epochs are needed. The training will show the accuracy on the test images every x epochs. 
 
 3. **Apply the Model**  
    Load the saved model file and use it where you would like. Use `Demo.py` to see how to use the model on a video.
